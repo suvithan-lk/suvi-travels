@@ -1,12 +1,4 @@
-// Preloader
-        window.addEventListener('load', function() {
-            const preloader = document.querySelector('.preloader');
-            setTimeout(() => {
-                preloader.classList.add('fade-out');
-            }, 2000); // Show preloader for 2 seconds
-        });
-
-        // Navbar scroll effect
+// Navbar scroll effect
         window.addEventListener('scroll', function() {
             const navbar = document.querySelector('.navbar');
             if (window.scrollY > 50) {
