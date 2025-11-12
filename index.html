@@ -3,727 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Suvi Travels - Luxury Ceylon Experience</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Suvi Travels - Best Travel Service in Jaffna | Cheap Van Hire Sri Lanka | Airport Transfers</title>
+    <meta name="title" content="Suvi Travels - Best Travel Service in Jaffna | Cheap Van Hire Sri Lanka | Airport Transfers">
+    <meta name="description" content="Best travel service in Jaffna, Sri Lanka. Affordable van hire, car rental, taxi service from Jaffna to Colombo, BIA airport transfers. Cheap van hire with driver. Book luxury tours, private transport across Sri Lanka. Call +94 754 272 556">
+    <meta name="keywords" content="best travels in jaffna, jaffna to colombo van hire, cheap van hire sri lanka, jaffna taxi service, airport transfer jaffna, BIA to jaffna, car hire jaffna, van rental sri lanka, jaffna travel agency, colombo to jaffna transport, affordable van hire, private driver jaffna, tour packages sri lanka, trincomalee tours, mannar travel, northern sri lanka tours, sigiriya tours, kandy tours, ella tours, mirissa tours, sri lanka travel agency, ceylon tour operator">
+    <meta name="author" content="Suvi Travels">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://suvitravels.com/">
+    <meta property="og:title" content="Suvi Travels - Best Travel Service in Jaffna | Cheap Van Hire Sri Lanka">
+    <meta property="og:description" content="Best travel service in Jaffna. Affordable van hire, car rental, taxi service from Jaffna to Colombo. Airport transfers. Book luxury tours across Sri Lanka.">
+    <meta property="og:image" content="https://suvitravels.com/assets/logo.png">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Suvi Travels">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://suvitravels.com/">
+    <meta property="twitter:title" content="Suvi Travels - Best Travel Service in Jaffna | Cheap Van Hire Sri Lanka">
+    <meta property="twitter:description" content="Best travel service in Jaffna. Affordable van hire, car rental, taxi service from Jaffna to Colombo. Airport transfers.">
+    <meta property="twitter:image" content="https://suvitravels.com/assets/logo.png">
+    
+    <!-- Geo Meta Tags -->
+    <meta name="geo.region" content="LK-41">
+    <meta name="geo.placename" content="Jaffna, Sri Lanka">
+    <meta name="geo.position" content="9.6615;80.0255">
+    <meta name="ICBM" content="9.6615, 80.0255">
+    
+    <!-- Contact Information -->
+    <meta name="contact" content="+94754272556">
+    <meta name="reply-to" content="suvithan.lk@gmail.com">
+    
     <link rel="shortcut icon" href="./image.png" type="image/x-icon">
+    <link rel="canonical" href="https://suvitravels.com/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            --gold: #D4AF37;
-            --dark-gold: #B8962A;
-            --deep-navy: #0A1828;
-            --slate: #1E293B;
-            --cream: #F8F6F0;
-            --white: #FFFFFF;
-            --accent: #8B7355;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            color: var(--deep-navy);
-            overflow-x: hidden;
-            background: var(--cream);
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            font-family: 'Playfair Display', serif;
-        }
-
-        /* Premium Navbar */
-        .navbar {
-            background: rgba(10, 24, 40, 0.95);
-            backdrop-filter: blur(20px);
-            padding: 1.2rem 0;
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
-        }
-
-        .navbar.scrolled {
-            padding: 0.8rem 0;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-        }
-
-        .navbar-brand {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: var(--gold) !important;
-            letter-spacing: 1px;
-            transition: all 0.3s ease;
-        }
-
-        .navbar-brand i {
-            margin-right: 0.7rem;
-            background: linear-gradient(135deg, var(--gold), var(--dark-gold));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .nav-link {
-            color: var(--white) !important;
-            font-weight: 500;
-            margin: 0 0.8rem;
-            padding: 0.5rem 1.2rem !important;
-            position: relative;
-            font-size: 0.95rem;
-            letter-spacing: 0.5px;
-            transition: all 0.3s ease;
-        }
-
-        .nav-link::before {
-            content: '';
-            position: absolute;
-            bottom: 5px;
-            left: 50%;
-            width: 0;
-            height: 2px;
-            background: linear-gradient(90deg, transparent, var(--gold), transparent);
-            transition: all 0.4s ease;
-            transform: translateX(-50%);
-        }
-
-        .nav-link:hover::before {
-            width: 100%;
-        }
-
-        .nav-link:hover {
-            color: var(--gold) !important;
-        }
-
-        /* Hero Section - Ultra Premium */
-        .hero-section {
-            position: relative;
-            min-height: 100vh;
-            background: linear-gradient(135deg, rgba(10, 24, 40, 0.9), rgba(30, 41, 59, 0.85)),
-                        url('https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?w=1920');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            display: flex;
-            align-items: center;
-            overflow: hidden;
-        }
-
-        .hero-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.1) 0%, transparent 50%);
-            pointer-events: none;
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 2;
-            color: var(--white);
-            animation: fadeInUp 1.2s ease-out;
-        }
-
-        .hero-content h1 {
-            font-size: 4.5rem;
-            font-weight: 800;
-            line-height: 1.2;
-            margin-bottom: 1.5rem;
-            background: linear-gradient(135deg, var(--white), var(--gold));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-shadow: none;
-        }
-
-        .hero-content .subtitle {
-            font-size: 1.4rem;
-            font-weight: 300;
-            letter-spacing: 2px;
-            margin-bottom: 2rem;
-            opacity: 0.95;
-            font-family: 'Inter', sans-serif;
-        }
-
-        .premium-btn {
-            padding: 1rem 3rem;
-            border-radius: 50px;
-            font-weight: 600;
-            font-size: 1rem;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            border: 2px solid transparent;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .premium-btn::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-            transition: left 0.6s ease;
-        }
-
-        .premium-btn:hover::before {
-            left: 100%;
-        }
-
-        .btn-gold {
-            background: linear-gradient(135deg, var(--gold), var(--dark-gold));
-            color: var(--deep-navy);
-            box-shadow: 0 10px 30px rgba(212, 175, 55, 0.3);
-        }
-
-        .btn-gold:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(212, 175, 55, 0.4);
-            color: var(--deep-navy);
-        }
-
-        .btn-outline-gold {
-            border: 2px solid var(--gold);
-            color: var(--gold);
-            background: transparent;
-        }
-
-        .btn-outline-gold:hover {
-            background: var(--gold);
-            color: var(--deep-navy);
-            transform: translateY(-3px);
-        }
-
-        /* Floating Decoration Elements */
-        .floating-element {
-            position: absolute;
-            border-radius: 50%;
-            background: radial-gradient(circle, rgba(212, 175, 55, 0.1), transparent);
-            animation: float 6s ease-in-out infinite;
-        }
-
-        .floating-element:nth-child(1) {
-            width: 300px;
-            height: 300px;
-            top: 10%;
-            right: 10%;
-            animation-delay: 0s;
-        }
-
-        .floating-element:nth-child(2) {
-            width: 200px;
-            height: 200px;
-            bottom: 20%;
-            left: 15%;
-            animation-delay: 2s;
-        }
-
-        @keyframes float {
-            0%, 100% { transform: translateY(0) rotate(0deg); }
-            50% { transform: translateY(-30px) rotate(180deg); }
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(50px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Premium Section Styles */
-        .premium-section {
-            padding: 8rem 0;
-            position: relative;
-        }
-
-        .section-header {
-            text-align: center;
-            margin-bottom: 5rem;
-            animation: fadeInUp 0.8s ease-out;
-        }
-
-        .section-subtitle {
-            font-size: 0.9rem;
-            font-weight: 600;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            color: var(--gold);
-            margin-bottom: 1rem;
-        }
-
-        .section-title {
-            font-size: 3.5rem;
-            font-weight: 700;
-            color: var(--deep-navy);
-            margin-bottom: 1.5rem;
-            position: relative;
-            display: inline-block;
-        }
-
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -15px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 80px;
-            height: 3px;
-            background: linear-gradient(90deg, transparent, var(--gold), transparent);
-        }
-
-        /* Luxury Service Cards */
-        .luxury-card {
-            background: var(--white);
-            border-radius: 20px;
-            padding: 3rem 2rem;
-            text-align: center;
-            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-            border: 1px solid rgba(212, 175, 55, 0.1);
-            position: relative;
-            overflow: hidden;
-            height: 100%;
-        }
-
-        .luxury-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.05), transparent);
-            opacity: 0;
-            transition: opacity 0.5s ease;
-        }
-
-        .luxury-card:hover::before {
-            opacity: 1;
-        }
-
-        .luxury-card:hover {
-            transform: translateY(-15px);
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
-            border-color: var(--gold);
-        }
-
-        .luxury-icon {
-            width: 100px;
-            height: 100px;
-            margin: 0 auto 2rem;
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.05));
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.5s ease;
-            border: 2px solid rgba(212, 175, 55, 0.2);
-        }
-
-        .luxury-card:hover .luxury-icon {
-            background: linear-gradient(135deg, var(--gold), var(--dark-gold));
-            transform: scale(1.1) rotate(360deg);
-            border-color: var(--gold);
-        }
-
-        .luxury-icon i {
-            font-size: 2.5rem;
-            color: var(--gold);
-            transition: all 0.5s ease;
-        }
-
-        .luxury-card:hover .luxury-icon i {
-            color: var(--white);
-        }
-
-        .luxury-card h4 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-            color: var(--deep-navy);
-        }
-
-        .luxury-card p {
-            color: var(--accent);
-            line-height: 1.8;
-            margin: 0;
-        }
-
-        /* Premium Destination Cards */
-        .destination-luxury-card {
-            position: relative;
-            border-radius: 25px;
-            overflow: hidden;
-            height: 450px;
-            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
-            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        .destination-luxury-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(to top, rgba(10, 24, 40, 0.9), transparent 60%);
-            z-index: 1;
-            transition: all 0.5s ease;
-        }
-
-        .destination-luxury-card:hover::before {
-            background: linear-gradient(to top, rgba(212, 175, 55, 0.8), transparent 60%);
-        }
-
-        .destination-luxury-card:hover {
-            transform: translateY(-10px) scale(1.02);
-            box-shadow: 0 25px 70px rgba(0, 0, 0, 0.3);
-        }
-
-        .destination-bg {
-            width: 100%;
-            height: 100%;
-            background-size: cover;
-            background-position: center;
-            transition: transform 0.7s ease;
-        }
-
-        .destination-luxury-card:hover .destination-bg {
-            transform: scale(1.1);
-        }
-
-        .destination-content {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            padding: 2.5rem;
-            z-index: 2;
-            color: var(--white);
-        }
-
-        .destination-content h3 {
-            font-size: 2rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            transition: all 0.3s ease;
-        }
-
-        .destination-luxury-card:hover .destination-content h3 {
-            transform: translateY(-5px);
-        }
-
-        .destination-content p {
-            font-size: 0.95rem;
-            opacity: 0.9;
-            margin: 0;
-        }
-
-        /* Luxury Booking Form */
-        .booking-luxury-card {
-            background: var(--white);
-            border-radius: 30px;
-            padding: 4rem;
-            box-shadow: 0 20px 80px rgba(0, 0, 0, 0.1);
-            border: 1px solid rgba(212, 175, 55, 0.2);
-        }
-
-        .form-label {
-            font-weight: 600;
-            color: var(--deep-navy);
-            margin-bottom: 0.8rem;
-            font-size: 0.95rem;
-            letter-spacing: 0.5px;
-        }
-
-        .form-label i {
-            color: var(--gold);
-            margin-right: 0.5rem;
-        }
-
-        .form-control, .form-select {
-            padding: 1rem 1.5rem;
-            border-radius: 15px;
-            border: 2px solid rgba(212, 175, 55, 0.2);
-            transition: all 0.3s ease;
-            background: rgba(248, 246, 240, 0.5);
-            font-size: 1rem;
-        }
-
-        .form-control:focus, .form-select:focus {
-            border-color: var(--gold);
-            box-shadow: 0 0 0 0.25rem rgba(212, 175, 55, 0.1);
-            background: var(--white);
-        }
-
-        /* Premium Feature Section */
-        .feature-section {
-            background: linear-gradient(135deg, var(--deep-navy), var(--slate));
-            color: var(--white);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .feature-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(212,175,55,0.05)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
-            opacity: 0.3;
-        }
-
-        .feature-item {
-            text-align: center;
-            padding: 2rem;
-            position: relative;
-            z-index: 1;
-        }
-
-        .feature-item i {
-            font-size: 3.5rem;
-            margin-bottom: 1.5rem;
-            color: var(--gold);
-            transition: all 0.3s ease;
-        }
-
-        .feature-item:hover i {
-            transform: scale(1.2);
-        }
-
-        .feature-item h4 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-        }
-
-        .feature-item p {
-            opacity: 0.9;
-            margin: 0;
-        }
-
-        /* Luxury Contact Cards */
-        .contact-luxury-card {
-            background: var(--white);
-            padding: 3rem;
-            border-radius: 25px;
-            text-align: center;
-            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
-            border: 2px solid rgba(212, 175, 55, 0.1);
-            transition: all 0.4s ease;
-            height: 100%;
-        }
-
-        .contact-luxury-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 25px 70px rgba(0, 0, 0, 0.15);
-            border-color: var(--gold);
-        }
-
-        .contact-icon {
-            width: 90px;
-            height: 90px;
-            margin: 0 auto 2rem;
-            background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(212, 175, 55, 0.05));
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border: 2px solid rgba(212, 175, 55, 0.2);
-            transition: all 0.4s ease;
-        }
-
-        .contact-luxury-card:hover .contact-icon {
-            background: linear-gradient(135deg, var(--gold), var(--dark-gold));
-            transform: scale(1.1);
-        }
-
-        .contact-icon i {
-            font-size: 2rem;
-            color: var(--gold);
-            transition: all 0.4s ease;
-        }
-
-        .contact-luxury-card:hover .contact-icon i {
-            color: var(--white);
-        }
-
-        .contact-luxury-card h5 {
-            font-size: 1.3rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-            color: var(--deep-navy);
-        }
-
-        .contact-luxury-card a {
-            color: var(--gold);
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1rem;
-            transition: all 0.3s ease;
-        }
-
-        .contact-luxury-card a:hover {
-            color: var(--dark-gold);
-        }
-
-        /* WhatsApp Premium Float */
-        .whatsapp-premium {
-            position: fixed;
-            width: 70px;
-            height: 70px;
-            bottom: 40px;
-            right: 40px;
-            background: linear-gradient(135deg, #25d366, #128c7e);
-            color: var(--white);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 35px;
-            box-shadow: 0 10px 40px rgba(37, 211, 102, 0.4);
-            z-index: 1000;
-            transition: all 0.4s ease;
-            animation: pulse 2s infinite;
-        }
-
-        .whatsapp-premium:hover {
-            transform: scale(1.15);
-            box-shadow: 0 15px 50px rgba(37, 211, 102, 0.6);
-            color: var(--white);
-        }
-
-        @keyframes pulse {
-            0%, 100% {
-                box-shadow: 0 10px 40px rgba(37, 211, 102, 0.4);
-            }
-            50% {
-                box-shadow: 0 10px 40px rgba(37, 211, 102, 0.6), 0 0 0 20px rgba(37, 211, 102, 0);
-            }
-        }
-
-        /* Premium Footer */
-        .premium-footer {
-            background: linear-gradient(135deg, var(--deep-navy), var(--slate));
-            color: var(--white);
-            padding: 3rem 0;
-            border-top: 3px solid var(--gold);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .premium-footer::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M 100 0 L 0 0 0 100" fill="none" stroke="rgba(212,175,55,0.05)" stroke-width="1"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
-            opacity: 0.2;
-        }
-
-        .footer-brand {
-            font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: var(--gold);
-            margin-bottom: 0.5rem;
-        }
-
-        .social-links a {
-            width: 45px;
-            height: 45px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            background: rgba(212, 175, 55, 0.1);
-            color: var(--gold);
-            margin: 0 0.5rem;
-            transition: all 0.3s ease;
-            border: 1px solid rgba(212, 175, 55, 0.2);
-        }
-
-        .social-links a:hover {
-            background: var(--gold);
-            color: var(--deep-navy);
-            transform: translateY(-5px);
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .hero-content h1 {
-                font-size: 2.5rem;
-            }
-
-            .hero-content .subtitle {
-                font-size: 1rem;
-            }
-
-            .section-title {
-                font-size: 2.5rem;
-            }
-
-            .premium-section {
-                padding: 5rem 0;
-            }
-
-            .booking-luxury-card {
-                padding: 2.5rem 1.5rem;
-            }
-
-            .luxury-card {
-                margin-bottom: 2rem;
-            }
-
-            .destination-luxury-card {
-                height: 350px;
-            }
-
-            .whatsapp-premium {
-                width: 60px;
-                height: 60px;
-                font-size: 28px;
-                bottom: 25px;
-                right: 25px;
-            }
-        }
-
-        /* Scroll Reveal Animation */
-        .reveal {
-            opacity: 0;
-            transform: translateY(50px);
-            transition: all 0.8s ease-out;
-        }
-
-        .reveal.active {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TravelAgency",
+      "name": "Suvi Travels",
+      "description": "Best travel service in Jaffna, Sri Lanka. Affordable van hire, car rental, taxi service, and luxury tours across Sri Lanka.",
+      "url": "https://suvitravels.com",
+      "logo": "https://suvitravels.com/assets/logo.png",
+      "telephone": "+94754272556",
+      "email": "suvithan.lk@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Jaffna",
+        "addressRegion": "Northern Province",
+        "addressCountry": "LK"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "9.6615",
+        "longitude": "80.0255"
+      },
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Jaffna"
+        },
+        {
+          "@type": "Place",
+          "name": "Colombo"
+        },
+        {
+          "@type": "Place",
+          "name": "Trincomalee"
+        },
+        {
+          "@type": "Place",
+          "name": "Mannar"
+        },
+        {
+          "@type": "Place",
+          "name": "Sri Lanka"
+        }
+      ],
+      "priceRange": "$$",
+      "sameAs": [
+        "https://wa.me/94754272556"
+      ],
+      "service": [
+        {
+          "@type": "Service",
+          "serviceType": "Van Hire",
+          "description": "Cheap van hire with driver in Jaffna and across Sri Lanka"
+        },
+        {
+          "@type": "Service",
+          "serviceType": "Airport Transfer",
+          "description": "Bandaranaike International Airport (BIA) transfers to Jaffna and other destinations"
+        },
+        {
+          "@type": "Service",
+          "serviceType": "Car Rental",
+          "description": "Affordable car hire with chauffeur in Jaffna"
+        },
+        {
+          "@type": "Service",
+          "serviceType": "Taxi Service",
+          "description": "Jaffna to Colombo taxi and intercity transport"
+        },
+        {
+          "@type": "Service",
+          "serviceType": "Tour Packages",
+          "description": "Luxury tour packages covering Jaffna, Trincomalee, Mannar, Sigiriya, Kandy, Ella, and more"
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
+    <!-- Travel Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="travel-animation">
+                <i class="fas fa-plane plane"></i>
+                <i class="fas fa-car car"></i>
+                <div class="road"></div>
+            </div>
+            <div class="loading-text">Preparing Your Journey</div>
+            <div class="loading-dots">...</div>
+        </div>
+    </div>
+
     <!-- Premium Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <i class="fas fa-gem"></i>Suvi Travels
+                <img src="./assets/logo.png" alt="Suvi Travels Logo" class="navbar-logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -747,15 +167,15 @@
         <div class="container">
             <div class="row align-items-center min-vh-100">
                 <div class="col-lg-10 mx-auto text-center hero-content">
-                    <div class="subtitle">LUXURY CEYLON EXPERIENCES</div>
-                    <h1>Discover the Pearl of the Indian Ocean</h1>
-                    <p class="lead mb-5">Embark on an extraordinary journey through Sri Lanka's timeless beauty with our bespoke travel experiences</p>
+                    <div class="subtitle">BEST TRAVEL SERVICE IN JAFFNA | CHEAP VAN HIRE SRI LANKA</div>
+                    <h1>Affordable Van Hire & Car Rental in Jaffna</h1>
+                    <p class="lead mb-5">Best travel service from Jaffna to Colombo, BIA Airport transfers, and luxury tours across Sri Lanka. Cheap van hire with experienced driver. Available 24/7 for airport pickups, intercity travel, and tour packages to Trincomalee, Mannar, Sigiriya, Kandy, Ella & more.</p>
                     <div>
                         <a href="#booking" class="btn premium-btn btn-gold me-3 mb-3">
-                            <i class="fas fa-calendar-check me-2"></i>Reserve Your Journey
+                            <i class="fas fa-calendar-check me-2"></i>Reserve Now
                         </a>
                         <a href="https://wa.me/94754272556" target="_blank" class="btn premium-btn btn-outline-gold mb-3">
-                            <i class="fab fa-whatsapp me-2"></i>Concierge Service
+                            <i class="fab fa-whatsapp me-2"></i>WhatsApp
                         </a>
                     </div>
                 </div>
@@ -767,27 +187,27 @@
     <section id="services" class="premium-section">
         <div class="container">
             <div class="section-header reveal">
-                <div class="section-subtitle">Our Signature Services</div>
-                <h2 class="section-title">Bespoke Travel Solutions</h2>
-                <p class="lead text-muted">Curated experiences tailored to your desires</p>
+                <div class="section-subtitle">Best Travel Services in Jaffna</div>
+                <h2 class="section-title">Cheap Van Hire & Car Rental Services</h2>
+                <p class="lead text-muted">Affordable transport solutions across Sri Lanka</p>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3 reveal">
                     <div class="luxury-card">
                         <div class="luxury-icon">
-                            <i class="fas fa-route"></i>
+                            <i class="fas fa-van-shuttle"></i>
                         </div>
-                        <h4>Luxury Tours</h4>
-                        <p>Meticulously crafted journeys covering Ceylon's most captivating destinations</p>
+                        <h4>Cheap Van Hire</h4>
+                        <p>Affordable van rental with driver. Perfect for Jaffna to Colombo trips, family tours, and group travel</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 reveal">
                     <div class="luxury-card">
                         <div class="luxury-icon">
-                            <i class="fas fa-hotel"></i>
+                            <i class="fas fa-plane-arrival"></i>
                         </div>
-                        <h4>Premium Stays</h4>
-                        <p>Exclusive accommodations at the finest boutique hotels and resorts</p>
+                        <h4>Airport Transfers</h4>
+                        <p>BIA Airport to Jaffna direct transfers. 24/7 pickup service from Colombo Airport to any destination</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 reveal">
@@ -795,17 +215,17 @@
                         <div class="luxury-icon">
                             <i class="fas fa-car-side"></i>
                         </div>
-                        <h4>Private Transport</h4>
-                        <p>Luxury vehicles with expert chauffeurs for seamless travel</p>
+                        <h4>Car Hire Jaffna</h4>
+                        <p>Budget-friendly car rental with experienced chauffeur. Intercity travel, tours, and daily hire available</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3 reveal">
                     <div class="luxury-card">
                         <div class="luxury-icon">
-                            <i class="fas fa-user-tie"></i>
+                            <i class="fas fa-route"></i>
                         </div>
-                        <h4>Personal Guides</h4>
-                        <p>Distinguished local experts to enrich your cultural immersion</p>
+                        <h4>Tour Packages</h4>
+                        <p>Best tour packages from Jaffna to Trincomalee, Mannar, Sigiriya, Kandy, Ella, and all Sri Lanka destinations</p>
                     </div>
                 </div>
             </div>
@@ -813,7 +233,7 @@
     </section>
 
     <!-- Premium Destinations -->
-    <section id="destinations" class="premium-section" style="background: var(--cream);">
+    <section id="destinations" class="premium-section" style="background: var(--white);">
         <div class="container">
             <div class="section-header reveal">
                 <div class="section-subtitle">Exclusive Destinations</div>
@@ -823,7 +243,7 @@
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 reveal">
                     <div class="destination-luxury-card">
-                        <div class="destination-bg" style="background-image: url('./sigiriya.png');"></div>
+                        <div class="destination-bg" style="background-image: url('./assets/sigiriya.png');"></div>
                         <div class="destination-content">
                             <h3>Sigiriya</h3>
                             <p><i class="fas fa-map-marker-alt me-2"></i>Ancient Rock Fortress • UNESCO Heritage</p>
@@ -832,7 +252,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 reveal">
                     <div class="destination-luxury-card">
-                        <div class="destination-bg" style="background-image: url('./ella.png');"></div>
+                        <div class="destination-bg" style="background-image: url('./assets/ella.png');"></div>
                         <div class="destination-content">
                             <h3>Ella</h3>
                             <p><i class="fas fa-map-marker-alt me-2"></i>Hill Country Paradise • Tea Estates</p>
@@ -841,7 +261,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 reveal">
                     <div class="destination-luxury-card">
-                        <div class="destination-bg" style="background-image: url('./galle-fort.png');"></div>
+                        <div class="destination-bg" style="background-image: url('./assets/galle-fort.png');"></div>
                         <div class="destination-content">
                             <h3>Galle Fort</h3>
                             <p><i class="fas fa-map-marker-alt me-2"></i>Colonial Heritage • Coastal Charm</p>
@@ -850,7 +270,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 reveal">
                     <div class="destination-luxury-card">
-                        <div class="destination-bg" style="background-image: url('./kandy.png');"></div>
+                        <div class="destination-bg" style="background-image: url('./assets/kandy.png');"></div>
                         <div class="destination-content">
                             <h3>Kandy</h3>
                             <p><i class="fas fa-map-marker-alt me-2"></i>Cultural Capital • Sacred Temple</p>
@@ -859,7 +279,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 reveal">
                     <div class="destination-luxury-card">
-                        <div class="destination-bg" style="background-image: url('./mirissa.png');"></div>
+                        <div class="destination-bg" style="background-image: url('./assets/mirissa.png');"></div>
                         <div class="destination-content">
                             <h3>Mirissa</h3>
                             <p><i class="fas fa-map-marker-alt me-2"></i>Pristine Beaches • Whale Watching</p>
@@ -868,10 +288,46 @@
                 </div>
                 <div class="col-md-6 col-lg-4 reveal">
                     <div class="destination-luxury-card">
-                        <div class="destination-bg" style="background-image: url('./NuwaraEliya.png');"></div>
+                        <div class="destination-bg" style="background-image: url('./assets/NuwaraEliya.png');"></div>
                         <div class="destination-content">
                             <h3>Nuwara Eliya</h3>
                             <p><i class="fas fa-map-marker-alt me-2"></i>Little England • Tea Plantations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal">
+                    <div class="destination-luxury-card">
+                        <div class="destination-bg" style="background-image: url('./assets/airport.jpg');"></div>
+                        <div class="destination-content">
+                            <h3>BIA Airport</h3>
+                            <p><i class="fas fa-plane-arrival me-2"></i>Airport Transfers • Gateway to Ceylon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal">
+                    <div class="destination-luxury-card">
+                        <div class="destination-bg" style="background-image: url('./assets/trincomalee.jpg');"></div>
+                        <div class="destination-content">
+                            <h3>Trincomalee</h3>
+                            <p><i class="fas fa-map-marker-alt me-2"></i>Pristine Beaches • Ancient Harbor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal">
+                    <div class="destination-luxury-card">
+                        <div class="destination-bg" style="background-image: url('./assets/jaffna.jpg');"></div>
+                        <div class="destination-content">
+                            <h3>Jaffna</h3>
+                            <p><i class="fas fa-map-marker-alt me-2"></i>Northern Heritage • Cultural Legacy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 reveal">
+                    <div class="destination-luxury-card">
+                        <div class="destination-bg" style="background-image: url('./assets/mannar.jpg');"></div>
+                        <div class="destination-content">
+                            <h3>Mannar</h3>
+                            <p><i class="fas fa-map-marker-alt me-2"></i>Historic Island • Marine Wonders</p>
                         </div>
                     </div>
                 </div>
@@ -959,10 +415,10 @@
                             </div>
                             <div class="col-12">
                                 <button type="button" onclick="sendBooking()" class="btn premium-btn btn-gold w-100 mb-3">
-                                    <i class="fas fa-paper-plane me-2"></i>Submit Reservation
+                                    <i class="fas fa-paper-plane me-2"></i>Submit
                                 </button>
                                 <button type="button" onclick="sendWhatsApp()" class="btn premium-btn btn-outline-gold w-100">
-                                    <i class="fab fa-whatsapp me-2"></i>Connect via WhatsApp
+                                    <i class="fab fa-whatsapp me-2"></i>WhatsApp
                                 </button>
                             </div>
                         </div>
@@ -976,7 +432,7 @@
     <section class="premium-section feature-section">
         <div class="container">
             <div class="section-header reveal">
-                <div class="section-subtitle text-white" style="color: var(--gold) !important;">Why Choose Us</div>
+                <div class="section-subtitle text-white" style="color: var(--secondary) !important;">Why Choose Us</div>
                 <h2 class="section-title text-white">The Suvi Travels Difference</h2>
             </div>
             <div class="row g-4">
@@ -1013,7 +469,7 @@
     </section>
 
     <!-- Premium Contact -->
-    <section id="contact" class="premium-section" style="background: var(--cream);">
+    <section id="contact" class="premium-section" style="background: var(--white);">
         <div class="container">
             <div class="section-header reveal">
                 <div class="section-subtitle">Connect With Us</div>
@@ -1056,20 +512,48 @@
         </div>
     </section>
 
+    <!-- SEO Content Section -->
+    <section class="premium-section seo-content-section" style="background: var(--primary);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="seo-content-card reveal">
+                        <h2>Best Travel Service in Jaffna - Suvi Travels</h2>
+                        <p class="mb-3">Looking for the <strong>best travels in Jaffna</strong>? Suvi Travels offers <strong>cheap van hire</strong> services across Sri Lanka with experienced drivers. We specialize in <strong>Jaffna to Colombo</strong> transport, <strong>BIA airport transfers</strong>, and affordable <strong>car hire in Jaffna</strong>.</p>
+                        
+                        <h3>Our Services Include:</h3>
+                        <ul class="mb-4">
+                            <li><strong>Cheap Van Hire Sri Lanka:</strong> Affordable van rental with professional drivers for family trips, group tours, and intercity travel</li>
+                            <li><strong>Airport Transfer Service:</strong> 24/7 pickup from Bandaranaike International Airport (BIA) to Jaffna, Trincomalee, Mannar, and all destinations</li>
+                            <li><strong>Jaffna to Colombo Transport:</strong> Direct taxi service, comfortable travel with competitive rates</li>
+                            <li><strong>Car Hire Jaffna:</strong> Budget-friendly car rental with chauffeur for daily hire and tours</li>
+                            <li><strong>Tour Packages:</strong> Complete travel packages covering Jaffna, Trincomalee, Mannar, Sigiriya, Kandy, Ella, Mirissa, Nuwara Eliya, and Galle</li>
+                        </ul>
+                        
+                        <p class="mb-3">As the <strong>leading travel agency in Jaffna</strong>, we provide reliable transport solutions for tourists and locals. Whether you need a <strong>van hire from Jaffna to Colombo</strong>, airport pickup, or a complete tour package, we offer the most competitive prices without compromising on quality and safety.</p>
+                        
+                        <p class="contact-highlight mb-0"><strong>Contact us now:</strong> +94 754 272 556 (Call/WhatsApp) | Available 24/7 for bookings and inquiries</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Premium Footer -->
     <footer class="premium-footer">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    <h5 class="footer-brand"><i class="fas fa-gem me-2"></i>Suvi Travels</h5>
+                    <div class="footer-logo-wrapper mb-3">
+                        <img src="./assets/logo.png" alt="Suvi Travels Logo" class="footer-logo">
+                    </div>
+                    <h5 class="footer-brand">Suvi Travels</h5>
                     <p class="mb-0" style="opacity: 0.8;">Curating Extraordinary Ceylon Experiences</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <div class="social-links mb-3">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="https://wa.me/94754272556" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                        <a href="#"><i class="fab fa-tripadvisor"></i></a>
                     </div>
                     <p class="mb-0" style="opacity: 0.7;">&copy; 2025 Suvi Travels. All Rights Reserved.</p>
                 </div>
@@ -1083,121 +567,6 @@
     </a>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Navbar scroll effect
-        window.addEventListener('scroll', function() {
-            const navbar = document.querySelector('.navbar');
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
-
-        // Smooth scroll
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    const navbarCollapse = document.querySelector('.navbar-collapse');
-                    if (navbarCollapse.classList.contains('show')) {
-                        navbarCollapse.classList.remove('show');
-                    }
-                }
-            });
-        });
-
-        // Set minimum date
-        const pickupDateInput = document.getElementById('pickupDate');
-        if (pickupDateInput) {
-            pickupDateInput.setAttribute('min', new Date().toISOString().split('T')[0]);
-        }
-
-        // Scroll reveal animation
-        function reveal() {
-            const reveals = document.querySelectorAll('.reveal');
-            reveals.forEach(element => {
-                const windowHeight = window.innerHeight;
-                const elementTop = element.getBoundingClientRect().top;
-                const elementVisible = 150;
-                if (elementTop < windowHeight - elementVisible) {
-                    element.classList.add('active');
-                }
-            });
-        }
-
-        window.addEventListener('scroll', reveal);
-        reveal();
-
-        // Destination card click
-        document.querySelectorAll('.destination-luxury-card').forEach(card => {
-            card.addEventListener('click', function() {
-                const destinationName = this.querySelector('h3').textContent;
-                const toPlaceInput = document.getElementById('toPlace');
-                if (toPlaceInput) {
-                    toPlaceInput.value = destinationName;
-                    document.getElementById('booking').scrollIntoView({ behavior: 'smooth' });
-                    setTimeout(() => toPlaceInput.focus(), 800);
-                }
-            });
-        });
-
-        // Send booking function
-        function sendBooking() {
-            sendWhatsApp();
-        }
-
-        function sendWhatsApp() {
-            const data = {
-                name: document.getElementById('name').value,
-                email: document.getElementById('email').value,
-                phone: document.getElementById('phone').value,
-                passengers: document.getElementById('passengers').value,
-                fromPlace: document.getElementById('fromPlace').value,
-                toPlace: document.getElementById('toPlace').value,
-                pickupDate: document.getElementById('pickupDate').value,
-                pickupTime: document.getElementById('pickupTime').value,
-                tripType: document.getElementById('tripType').value,
-                message: document.getElementById('message').value
-            };
-
-            let message = `*✨ Luxury Booking Request - Suvi Travels ✨*\n\n`;
-            message += `*Guest Information:*\n`;
-            message += `👤 Name: ${data.name || 'Not provided'}\n`;
-            message += `📧 Email: ${data.email || 'Not provided'}\n`;
-            message += `📱 Phone: ${data.phone || 'Not provided'}\n`;
-            message += `👥 Guests: ${data.passengers || 'Not provided'}\n\n`;
-            message += `*Journey Details:*\n`;
-            message += `📍 From: ${data.fromPlace || 'Not provided'}\n`;
-            message += `🎯 To: ${data.toPlace || 'Not provided'}\n`;
-            message += `📅 Date: ${data.pickupDate || 'Not provided'}\n`;
-            message += `🕐 Time: ${data.pickupTime || 'Not provided'}\n`;
-            message += `🎭 Experience: ${data.tripType || 'Not provided'}\n`;
-            
-            if (data.message) {
-                message += `\n*Special Requests:*\n${data.message}`;
-            }
-
-            const encodedMessage = encodeURIComponent(message);
-            const whatsappURL = `https://wa.me/94754272556?text=${encodedMessage}`;
-            window.open(whatsappURL, '_blank');
-        }
-
-        // Phone formatting
-        const phoneInput = document.getElementById('phone');
-        if (phoneInput) {
-            phoneInput.addEventListener('input', function(e) {
-                let value = e.target.value.replace(/\D/g, '');
-                if (value.length > 0 && !value.startsWith('94')) {
-                    if (value.startsWith('0')) {
-                        value = '94' + value.substring(1);
-                    }
-                }
-                e.target.value = value;
-            });
-        }
-    </script>
+    <script src="./main.js"></script>
 </body>
 </html>
